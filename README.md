@@ -7,7 +7,7 @@ We write here for two players only for bravity.
 
 ## The Game
 Arbitrary player starts the game by taking one of the three possible moves.
-1. A user can (**Bluf** or **Call**) Pairs (Two Cards), Traids (Three Cards) or Quads (Four Cards).
+1. A user can **Bluf** or **Call** Pairs (Two Cards), Traids (Three Cards) or Quads (Four Cards).
 2. A user can **Debunk Bluf** and check the last moves' cards.
 3. A user can **Pass** the move i.e do not play anything.
 The goal of each user is to **eliminate all cards from his hand**.
