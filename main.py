@@ -1,4 +1,5 @@
-from Bluff import Game
+from lib.Game import Game
+import sys
 
 
 def main():
