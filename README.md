@@ -13,6 +13,8 @@ Arbitrary player starts the game by taking one of the three possible moves.
 3. A user can **Pass** the move i.e do not play anything.
 The goal of each user is to **eliminate all cards from his hand**.
 
+If both players passes on a single move, then the cards played are archived and no longer in play.
+
 ### Heuristics (Basic player)
 Following are some simple heuristics a human player will follows.
 
