@@ -5,11 +5,15 @@ Game starts by distributing the cards equally to all candidates.
 We write here for two players only for bravity.
 (We hope it will be easy to extended to n-players later on).
 
+** For a single deck, this game is not too hard to play. It would be more intereasting to play with n decks. **
 ## The Game
 Arbitrary player starts the game by taking one of the three possible moves.
 1. A user can **Bluf** or **Call** Pairs (Two Cards), Traids (Three Cards) or Quads (Four Cards).
 2. A user can **Debunk Bluf** and check the last moves' cards.
 3. A user can **Pass** the move i.e do not play anything.
+
+If both players passes on a single move, then the cards played are archived and no longer in play.
+
 The goal of each user is to **eliminate all cards from his hand**.
 
 ### Heuristics (Basic player)
