@@ -1,5 +1,4 @@
 import random
-import numpy as np
 from lib.constants import ACTIONS, FACES, ACTIONS, VALUES, ROOT_LOGGER
 from lib.Player import Player, Cards
 from lib.Card import Card

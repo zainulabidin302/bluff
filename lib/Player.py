@@ -1,5 +1,4 @@
 import random
-import numpy as np
 from lib.constants import VALUES, FACES, MAX_CARDS
 from lib.Card import Card
 from copy import deepcopy
