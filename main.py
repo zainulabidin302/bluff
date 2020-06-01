@@ -1,20 +1,17 @@
 from lib.Game import Game
+from tests.tests import test_to_dict_from_dict, test_game_start_end, test_2_player_game_play, test_4_player_game_play, test_3_player_game_play
 import sys
 import logging
 import time
-from lib.constants import ROOT_LOGGER
-logger = logging.getLogger(ROOT_LOGGER)
-logger.setLevel(logging.ERROR)
-
-# fh = logging.FileHandler(f'./gameplay/{time.time()}.txt')
-# logger.addHandler(fh)
 
 
 def main():
-    n = 2
-    logger.info("Game Started: N=2")
-    g = Game(n_players=2)
-    g.run_episode()
+    test_game_start_end()
+    test_2_player_game_play()
+    test_4_player_game_play()
+    test_3_player_game_play()
+    test_to_dict_from_dict()
+    # test_2_player_game_play_bluff_first_round()
 
 
 if __name__ == "__main__":

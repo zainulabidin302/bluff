@@ -26,5 +26,5 @@ class Card(namedtuple('Card', ['face', 'value'])):
     def __gt__(self, other):
         return self.value > other.value
 
-    def to_json(self):
+    def to_dict(self):
         return {"face": self.face, "value": self.value}
